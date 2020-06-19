@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Domain", "src\DevIO.Domain\DevIO.Domain.csproj", "{425892AE-A38B-4DEB-AC59-A3699D9261B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Data", "src\DevIO.Data\DevIO.Data.csproj", "{C6AD72B7-2EC9-4489-AE58-27D82D54C2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Api", "src\DevIO.Api\DevIO.Api.csproj", "{C5951F39-5D80-460F-A3B8-3BEA15BF65B1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{425892AE-A38B-4DEB-AC59-A3699D9261B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425892AE-A38B-4DEB-AC59-A3699D9261B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425892AE-A38B-4DEB-AC59-A3699D9261B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425892AE-A38B-4DEB-AC59-A3699D9261B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AD72B7-2EC9-4489-AE58-27D82D54C2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AD72B7-2EC9-4489-AE58-27D82D54C2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AD72B7-2EC9-4489-AE58-27D82D54C2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AD72B7-2EC9-4489-AE58-27D82D54C2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5951F39-5D80-460F-A3B8-3BEA15BF65B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5951F39-5D80-460F-A3B8-3BEA15BF65B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5951F39-5D80-460F-A3B8-3BEA15BF65B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5951F39-5D80-460F-A3B8-3BEA15BF65B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
