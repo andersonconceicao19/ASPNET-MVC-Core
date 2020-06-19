@@ -6,7 +6,10 @@ C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\net
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Domain.dll
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Domain.pdb
-C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.runtimeconfig.json
+C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.runtimeconfig.dev.json
+C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.genruntimeconfig.cache
+C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache

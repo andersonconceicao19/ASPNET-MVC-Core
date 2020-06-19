@@ -26,7 +26,7 @@ namespace DevIO.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(x=> x.UseSqlServer(Configuration.GetConnectionString("Connecta")));
+            services.AddDbContext<DataContext>(x=> x.UseSqlServer(Configuration.GetConnectionString("connect")));
             services.AddControllers();
         }
 
