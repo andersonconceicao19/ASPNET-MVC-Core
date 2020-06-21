@@ -12,10 +12,10 @@ namespace DevIO.Domain.Interfaces
         Task<List<TEntity>> GetAll();
         Task<TEntity> GetById(Guid id);
         Task Add(TEntity entity);
-        Task Remove(Guid Id);
-        Task Update(TEntity entity);
+        Task Remover(Guid Id);
+        Task Atualizar(TEntity entity);
         Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicate);
-        Task<int> Savechange();
+        Task<int> SaveChanges();
         
     }
 }
