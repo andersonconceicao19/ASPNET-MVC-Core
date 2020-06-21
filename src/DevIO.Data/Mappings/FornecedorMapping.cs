@@ -18,7 +18,7 @@ namespace DevIO.Data.Mappings
                 .HasColumnType("varchar(50)");
             builder.Property(f => f.Documento)
                 .IsRequired()
-                .HasColumnType("vachar(14)");
+                .HasColumnType("varchar(14)");
 
             builder.HasMany(f => f.Produtos)
                 .WithOne(p => p.Fornecedor)

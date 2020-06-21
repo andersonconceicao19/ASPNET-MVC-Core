@@ -73,7 +73,7 @@ namespace DevIO.Data.Migrations
 
                     b.Property<string>("Documento")
                         .IsRequired()
-                        .HasColumnType("vachar(14)");
+                        .HasColumnType("varchar(14)");
 
                     b.Property<string>("Nome")
                         .IsRequired()

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DevIO.Data.Migrations
 {
-    public partial class initial : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,7 +13,7 @@ namespace DevIO.Data.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     Nome = table.Column<string>(type: "varchar(50)", nullable: false),
-                    Documento = table.Column<string>(type: "vachar(14)", nullable: false),
+                    Documento = table.Column<string>(type: "varchar(14)", nullable: false),
                     TipoFornecedor = table.Column<int>(nullable: false),
                     Ativo = table.Column<bool>(nullable: false)
                 },

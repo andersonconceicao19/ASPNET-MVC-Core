@@ -1,9 +1,9 @@
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\bin\Debug\netcoreapp3.1\DevIO.Domain.deps.json
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\bin\Debug\netcoreapp3.1\DevIO.Domain.dll
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\bin\Debug\netcoreapp3.1\DevIO.Domain.pdb
-C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.csprojAssemblyReference.cache
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.csproj.CoreCompileInputs.cache
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.AssemblyInfoInputs.cache
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.AssemblyInfo.cs
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.dll
 C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.pdb
+C:\Users\ander\Desktop\REST-com-ASP.NET-Core-WebAPI\src\DevIO.Domain\obj\Debug\netcoreapp3.1\DevIO.Domain.csprojAssemblyReference.cache
