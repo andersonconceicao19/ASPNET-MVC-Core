@@ -1,9 +1,6 @@
-﻿using DevIO.Domain.Models;
+﻿using DevIO.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DevIO.Data.Mappings
 {
@@ -11,24 +8,36 @@ namespace DevIO.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
-            builder.HasKey(x => x.Id);
+            builder.HasKey(p => p.Id);
 
-            builder.Property(e => e.Logradouro)
+            builder.Property(c => c.Logradouro)
                 .IsRequired()
-                .HasColumnType("varchar(20)");
+                .HasColumnType("varchar(200)");
 
-            builder.Property(e => e.Numero)
+            builder.Property(c => c.Numero)
                 .IsRequired()
-                .HasColumnType("varchar(5)");
-            builder.Property(e => e.Bairro)
+                .HasColumnType("varchar(50)");
+
+            builder.Property(c => c.Cep)
                 .IsRequired()
-                .HasColumnType("varchar(30)");
-            builder.Property(e => e.Cidade)
+                .HasColumnType("varchar(8)");
+
+            builder.Property(c => c.Complemento)
+                .HasColumnType("varchar(250)");
+
+            builder.Property(c => c.Bairro)
                 .IsRequired()
-                .HasColumnType("varchar(30)");
-            builder.Property(e => e.Estado)
+                .HasColumnType("varchar(100)");
+
+            builder.Property(c => c.Cidade)
                 .IsRequired()
-                .HasColumnType("varchar(2)");
+                .HasColumnType("varchar(100)");
+
+            builder.Property(c => c.Estado)
+                .IsRequired()
+                .HasColumnType("varchar(50)");
+
+            builder.ToTable("Enderecos");
         }
     }
 }
